@@ -1,0 +1,34 @@
+{
+	title: "一雪前耻",
+	x: 10.5d,
+	y: 0.5d,
+	text: [
+		"你的麒麟臂大概是被粗壮的树干挑衅过了，得到了绑定材料的你终于有办法一雪前耻了！",
+		"tips:系统给的斧头最好用来做砧板"
+	],
+	dependencies: [
+		"be7fa7eb"
+	],
+	hide: true,
+	tasks: [{
+		uid: "d5da86fb",
+		type: "item",
+		items: [{
+			item: "notreepunching:axe/flint"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "c16d9cd8",
+		type: "item",
+		items: [{
+			item: "minecraft:log"
+		}]
+	}],
+	rewards: [{
+		uid: "a4ef182b",
+		type: "item",
+		item: "pyrotech:crude_axe 1 40"
+	}]
+}

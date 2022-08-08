@@ -1,0 +1,20 @@
+{
+	title: "贪婪的开端",
+	x: 8.0d,
+	y: 5.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"9795ab56"
+	],
+	hide: true,
+	size: 2.0d,
+	tasks: [{
+		uid: "9c91efaf",
+		type: "item",
+		items: [{
+			item: "minecraft:diamond"
+		}]
+	}]
+}

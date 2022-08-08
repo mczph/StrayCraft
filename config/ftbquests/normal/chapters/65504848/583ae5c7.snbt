@@ -1,0 +1,41 @@
+{
+	x: 16.0d,
+	y: 0.0d,
+	dependencies: [
+		"6e63a43a"
+	],
+	tasks: [{
+		uid: "86dd8a49",
+		type: "item",
+		items: [{
+			item: "mekanism:basicblock 1 14"
+		}]
+	},
+	{
+		uid: "fc5e4a7e",
+		type: "item",
+		items: [{
+			item: "mekanism:basicblock 1 15"
+		}],
+		count: 2L
+	},
+	{
+		uid: "ad83996a",
+		type: "item",
+		items: [{
+			item: "mekanism:basicblock2"
+		}],
+		count: 32L
+	}],
+	rewards: [{
+		uid: "88835a7c",
+		type: "item",
+		item: "mekanism:machineblock3 1 4"
+	},
+	{
+		uid: "f45e5985",
+		type: "item",
+		item: "mekanism:basicblock2",
+		count: 64
+	}]
+}

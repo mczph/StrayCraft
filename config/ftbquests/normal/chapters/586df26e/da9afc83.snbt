@@ -1,0 +1,31 @@
+{
+	title: "用火",
+	x: 4.5d,
+	y: 5.0d,
+	text: [
+		"刚刚晾干的植物纤维似乎很有用处"
+	],
+	dependencies: [
+		"e51a8468",
+		"20e6cbf8"
+	],
+	hide: true,
+	tasks: [{
+		uid: "1d520af4",
+		type: "item",
+		items: [{
+			item: "pyrotech:kiln_pit"
+		}]
+	}],
+	rewards: [{
+		uid: "ebc6c0c6",
+		type: "item",
+		item: "pyrotech:material 1 13",
+		count: 24
+	},
+	{
+		uid: "069416e9",
+		type: "item",
+		item: "minecraft:chest"
+	}]
+}

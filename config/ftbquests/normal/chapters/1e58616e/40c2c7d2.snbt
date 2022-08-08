@@ -1,0 +1,35 @@
+{
+	x: -2.0d,
+	y: 4.0d,
+	dependencies: [
+		"6f0168f5"
+	],
+	tasks: [{
+		uid: "adee30c5",
+		type: "item",
+		items: [{
+			item: "plustic:alumiteingot"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "34c53854",
+		type: "item",
+		item: {
+			id: "tconstruct:cast",
+			tag: {
+				PartType: "tconstruct:tool_rod"
+			}
+		}
+	},
+	{
+		uid: "5c150463",
+		type: "item",
+		item: {
+			id: "tconstruct:cast",
+			tag: {
+				PartType: "tconstruct:tough_tool_rod"
+			}
+		}
+	}]
+}

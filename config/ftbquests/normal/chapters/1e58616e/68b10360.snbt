@@ -1,0 +1,25 @@
+{
+	x: 2.5d,
+	y: 2.0d,
+	dependencies: [
+		"6f0168f5"
+	],
+	tasks: [{
+		uid: "18c6a272",
+		type: "item",
+		items: [{
+			item: "tconstruct:ingots 1 4"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "f93cf5b7",
+		type: "item",
+		item: {
+			id: "tconstruct:sign_head",
+			tag: {
+				Material: "pigiron"
+			}
+		}
+	}]
+}

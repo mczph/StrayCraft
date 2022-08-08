@@ -1,0 +1,22 @@
+{
+	x: -7.0d,
+	y: 11.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"8eab27a9"
+	],
+	hide: true,
+	tasks: [{
+		uid: "dfbda6e1",
+		type: "item",
+		items: [{
+			item: "academy:imag_fusor"
+		}]
+	}],
+	rewards: [{
+		uid: "5ef26b71",
+		type: "item",
+		item: "academy:imag_phase",
+		count: 12
+	}]
+}

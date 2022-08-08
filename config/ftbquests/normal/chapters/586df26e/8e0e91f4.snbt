@@ -1,0 +1,32 @@
+{
+	x: 0.5d,
+	y: 6.5d,
+	dependencies: [
+		"b08c4b89"
+	],
+	hide: true,
+	tasks: [{
+		uid: "eab7f573",
+		type: "item",
+		items: [{
+			item: "minecraft:iron_ingot"
+		}]
+	}],
+	rewards: [{
+		uid: "e9536e91",
+		type: "random",
+		table: 0
+	},
+	{
+		uid: "874439ad",
+		type: "item",
+		item: "minecraft:fire_charge"
+	},
+	{
+		uid: "d68dd8d4",
+		type: "command",
+		team_reward: true,
+		auto: "enabled",
+		command: "/difficulty hard"
+	}]
+}

@@ -1,0 +1,25 @@
+{
+	title: "吐司猫没了？",
+	icon: "academy:cat_engine",
+	x: -2.0d,
+	y: 2.5d,
+	text: [
+		"你也许会手残把吐司猫放在地上，然后打一下没了，这里就是你补救的机会"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"8eab27a9"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	size: 1.5d,
+	tasks: [{
+		uid: "2c69957f",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "034f3ce0",
+		type: "item",
+		item: "academy:cat_engine"
+	}]
+}

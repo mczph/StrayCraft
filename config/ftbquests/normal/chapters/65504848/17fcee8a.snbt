@@ -1,0 +1,16 @@
+{
+	x: 7.5d,
+	y: -3.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"1f54159d"
+	],
+	tasks: [{
+		uid: "3378f29a",
+		type: "item",
+		items: [{
+			item: "mekanismgenerators:generator 1 1"
+		}],
+		ignore_nbt: 1b
+	}]
+}

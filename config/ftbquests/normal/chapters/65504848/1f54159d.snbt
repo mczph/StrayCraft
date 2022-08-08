@@ -1,0 +1,21 @@
+{
+	x: 2.5d,
+	y: -1.5d,
+	dependencies: [
+		"0a506ca5"
+	],
+	tasks: [{
+		uid: "91e2284c",
+		type: "item",
+		items: [{
+			item: "mekanismgenerators:generator"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "a4ab16c9",
+		type: "item",
+		item: "projecte:item.pe_fuel 1 2",
+		count: 32
+	}]
+}

@@ -1,0 +1,20 @@
+{
+	x: -0.5d,
+	y: 1.0d,
+	dependencies: [
+		"87ac0977"
+	],
+	hide: true,
+	tasks: [{
+		uid: "4d29fe32",
+		type: "item",
+		items: [{
+			item: "pyrotech:bucket_stone"
+		}]
+	}],
+	rewards: [{
+		uid: "e0799980",
+		type: "item",
+		item: "minecraft:bucket"
+	}]
+}

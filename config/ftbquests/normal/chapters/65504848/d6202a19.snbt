@@ -1,0 +1,82 @@
+{
+	x: 2.5d,
+	y: 5.0d,
+	dependencies: [
+		"a1f66aa7",
+		"6f4000ca"
+	],
+	tasks: [{
+		uid: "c661eb0b",
+		type: "item",
+		items: [{
+			id: "ic2:nano_boots",
+			tag: {},
+			Damage: 26s
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "9f69cb91",
+		type: "item",
+		items: [{
+			id: "ic2:nano_chestplate",
+			tag: {},
+			Damage: 26s
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "7dd09c5d",
+		type: "item",
+		items: [{
+			id: "ic2:nano_leggings",
+			tag: {},
+			Damage: 26s
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "53099a4d",
+		type: "item",
+		items: [{
+			id: "ic2:nano_helmet",
+			tag: {},
+			Damage: 26s
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "f6499937",
+		type: "item",
+		items: [{
+			id: "ic2:nano_saber",
+			tag: {},
+			Damage: 26s
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "c07d5d08",
+		type: "item",
+		item: {
+			id: "ic2:charging_energy_crystal",
+			tag: {
+				charge: 4000000.0d
+			}
+		}
+	},
+	{
+		uid: "74a531e4",
+		type: "item",
+		item: {
+			id: "ic2:te",
+			tag: {},
+			Damage: 74s
+		}
+	}]
+}

@@ -1,0 +1,35 @@
+{
+	title: "能量",
+	x: 7.0d,
+	y: -4.0d,
+	shape: "square",
+	text: [
+		""
+	],
+	can_repeat: true,
+	dependencies: [
+		"12e5afb4"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "a41f46c9",
+		type: "ic2_energy",
+		value: 100000000L
+	},
+	{
+		uid: "f5d3e6c0",
+		type: "forge_energy",
+		value: 1000000000L
+	}],
+	rewards: [{
+		uid: "292d6ccf",
+		type: "item",
+		item: "projecte:collector_mk3",
+		count: 4
+	},
+	{
+		uid: "dc18b6ea",
+		type: "item",
+		item: "projecte:condenser_mk2"
+	}]
+}

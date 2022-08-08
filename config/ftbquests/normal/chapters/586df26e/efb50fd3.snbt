@@ -1,0 +1,38 @@
+{
+	x: -2.0d,
+	y: 9.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"6759e366"
+	],
+	hide: true,
+	tasks: [{
+		uid: "debe0dcd",
+		type: "item",
+		items: [{
+			item: "academy:terminal_installer"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "a0e8f4d1",
+		type: "item",
+		item: "academy:app_freq_transmitter"
+	},
+	{
+		uid: "6b980429",
+		type: "item",
+		item: "academy:app_media_player"
+	},
+	{
+		uid: "4e3dea72",
+		type: "item",
+		item: "academy:app_skill_tree"
+	},
+	{
+		uid: "ba307314",
+		type: "item",
+		item: "academymonster:aim_scanner"
+	}]
+}

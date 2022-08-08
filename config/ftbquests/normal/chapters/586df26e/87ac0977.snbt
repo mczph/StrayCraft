@@ -1,0 +1,24 @@
+{
+	title: "泡的不是妹子",
+	x: 0.5d,
+	y: 2.0d,
+	text: [
+		"咳咳，不要想歪"
+	],
+	dependencies: [
+		"d7e5b19d"
+	],
+	hide: true,
+	tasks: [{
+		uid: "42c56d69",
+		type: "item",
+		items: [{
+			item: "pyrotech:soaking_pot"
+		}]
+	}],
+	rewards: [{
+		uid: "81c1decd",
+		type: "item",
+		item: "pyrotech:soaking_pot"
+	}]
+}

@@ -1,0 +1,12 @@
+{
+	x: -7.5d,
+	y: -1.5d,
+	tasks: [{
+		uid: "2b488b17",
+		type: "item",
+		items: [{
+			item: "extrautils2:unstableingots"
+		}],
+		ignore_nbt: 1b
+	}]
+}

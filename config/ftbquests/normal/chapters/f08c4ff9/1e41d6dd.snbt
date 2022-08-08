@@ -1,0 +1,47 @@
+{
+	title: "时间",
+	icon: {
+		id: "projecte:item.pe_time_watch",
+		tag: {}
+	},
+	x: -7.0d,
+	y: -4.0d,
+	text: [
+		""
+	],
+	can_repeat: true,
+	dependencies: [
+		"12e5afb4"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "abe9b2d0",
+		type: "item",
+		items: [{
+			item: "draconicevolution:draconium_block"
+		}],
+		count: 320L,
+		consume_items: true
+	},
+	{
+		uid: "80cb583f",
+		type: "item",
+		items: [{
+			item: "draconicevolution:draconium_block 1 1"
+		}],
+		count: 64L
+	}],
+	rewards: [{
+		uid: "ff1df941",
+		type: "item",
+		item: {
+			id: "projecte:item.pe_time_watch",
+			tag: {}
+		}
+	},
+	{
+		uid: "45c00b68",
+		type: "item",
+		item: "projecte:dm_pedestal"
+	}]
+}

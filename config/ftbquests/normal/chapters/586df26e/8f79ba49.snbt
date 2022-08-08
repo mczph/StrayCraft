@@ -1,0 +1,38 @@
+{
+	x: -4.5d,
+	y: 11.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"8eab27a9",
+		"6759e366"
+	],
+	hide: true,
+	tasks: [{
+		uid: "6b9a716a",
+		type: "item",
+		items: [{
+			item: "academy:dev_normal"
+		}]
+	}],
+	rewards: [{
+		uid: "a8441566",
+		type: "item",
+		item: "academy:windgen_fan"
+	},
+	{
+		uid: "ff57d944",
+		type: "item",
+		item: "academy:windgen_base"
+	},
+	{
+		uid: "e2b130b7",
+		type: "item",
+		item: "academy:windgen_main"
+	},
+	{
+		uid: "447ecd1f",
+		type: "item",
+		item: "academy:windgen_pillar",
+		count: 5
+	}]
+}

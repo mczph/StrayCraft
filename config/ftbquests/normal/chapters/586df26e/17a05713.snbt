@@ -1,0 +1,30 @@
+{
+	title: "轻轻敲醒沉睡的心灵",
+	x: 4.5d,
+	y: 2.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"b6572160"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "3428b9db",
+		type: "item",
+		items: [{
+			item: "pyrotech:anvil_granite"
+		}]
+	}],
+	rewards: [{
+		uid: "0e2dea74",
+		type: "item",
+		item: "pyrotech:bone_hammer"
+	},
+	{
+		uid: "d2785f94",
+		type: "item",
+		item: "pyrotech:anvil_iron_plated"
+	}]
+}

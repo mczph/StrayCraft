@@ -1,0 +1,32 @@
+{
+	title: "点火",
+	x: 4.5d,
+	y: 4.0d,
+	text: [
+		"偶然，你碰撞了你手里的石头，冒出的火星宛如燃起的希望"
+	],
+	dependencies: [
+		"e51a8468"
+	],
+	hide: true,
+	tasks: [{
+		uid: "aa977b62",
+		type: "item",
+		items: [{
+			item: "pyrotech:flint_and_tinder"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "38c5b919",
+		type: "item",
+		item: "minecraft:netherrack",
+		count: 2
+	},
+	{
+		uid: "2c103b44",
+		type: "item",
+		item: "minecraft:flint_and_steel"
+	}]
+}

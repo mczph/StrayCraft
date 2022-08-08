@@ -1,0 +1,32 @@
+{
+	title: "合成",
+	x: 12.5d,
+	y: 2.0d,
+	text: [
+		"你不再局限于手的简单拼接，而是想到了一种更为高级的方法",
+		"制作一个工作桌",
+		"tips:将材料摆放好后，锤子右键以合成"
+	],
+	dependencies: [
+		"42f13972"
+	],
+	hide: true,
+	tasks: [{
+		uid: "2c407ed9",
+		type: "item",
+		items: [{
+			item: "pyrotech:worktable"
+		}]
+	}],
+	rewards: [{
+		uid: "afdc0a76",
+		type: "item",
+		item: "pyrotech:crude_hammer"
+	},
+	{
+		uid: "2ff8b97f",
+		type: "loot",
+		icon: "harvestcraft:fishlettucewrapitem",
+		table: 0
+	}]
+}

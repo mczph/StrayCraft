@@ -1,0 +1,18 @@
+{
+	x: 0.5d,
+	y: 3.5d,
+	hide: true,
+	tasks: [{
+		uid: "4b02eb91",
+		type: "item",
+		items: [{
+			item: "pyrotech:material 1 5"
+		}],
+		count: 28L
+	}],
+	rewards: [{
+		uid: "17cf09ca",
+		type: "item",
+		item: "pyrotech:brick_kiln"
+	}]
+}

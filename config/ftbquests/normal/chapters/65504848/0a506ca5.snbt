@@ -1,0 +1,45 @@
+{
+	x: 0.0d,
+	y: 0.0d,
+	dependencies: [
+		"6f0168f5"
+	],
+	tasks: [{
+		uid: "f0b5bb54",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:wrench"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "b8c8b609",
+		type: "item",
+		item: "draconicevolution:crystal_binder"
+	},
+	{
+		uid: "34cd1e98",
+		type: "item",
+		item: "extrautils2:wrench"
+	},
+	{
+		uid: "31fa296d",
+		type: "item",
+		item: "appliedenergistics2:certus_quartz_wrench"
+	},
+	{
+		uid: "3afb1e71",
+		type: "item",
+		item: "enderio:item_yeta_wrench"
+	},
+	{
+		uid: "7253381c",
+		type: "item",
+		item: "teslacorelib:wrench"
+	},
+	{
+		uid: "d8b2cd31",
+		type: "item",
+		item: "ic2:wrench_new"
+	}]
+}

@@ -1,0 +1,31 @@
+{
+	icon: "pyrotech:stone_sawmill",
+	x: 3.0d,
+	y: 2.0d,
+	dependencies: [
+		"36f44eca"
+	],
+	hide: true,
+	tasks: [{
+		uid: "e3ff53d7",
+		type: "item",
+		items: [{
+			item: "pyrotech:stone_sawmill"
+		}]
+	},
+	{
+		uid: "475636c5",
+		type: "item",
+		items: [{
+			item: "pyrotech:sawmill_blade_flint"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "fd19ab77",
+		type: "item",
+		item: "minecraft:coal 1 1",
+		count: 9
+	}]
+}

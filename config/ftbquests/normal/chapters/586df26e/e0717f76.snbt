@@ -1,0 +1,30 @@
+{
+	x: 12.5d,
+	y: 9.0d,
+	dependencies: [
+		"b212c844"
+	],
+	hide: true,
+	size: 1.7d,
+	tasks: [{
+		uid: "3780d7f1",
+		type: "item",
+		items: [{
+			item: "minecraft:nether_star"
+		}]
+	}],
+	rewards: [{
+		uid: "eb4069ab",
+		type: "item",
+		item: {
+			id: "minecraft:golden_apple",
+			tag: {
+				display: {
+					Name: "肾宝片"
+				}
+			},
+			Damage: 1s
+		},
+		count: 8
+	}]
+}

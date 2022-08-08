@@ -1,0 +1,26 @@
+{
+	title: "木棍",
+	x: 0.5d,
+	y: 0.5d,
+	text: [
+		"",
+		"tips:撸树叶有几率获得木棍"
+	],
+	dependencies: [
+		"8e7c9b60"
+	],
+	hide: true,
+	tasks: [{
+		uid: "e0de5179",
+		type: "item",
+		items: [{
+			item: "minecraft:stick"
+		}]
+	}],
+	rewards: [{
+		uid: "1f345ba5",
+		type: "item",
+		item: "harvestcraft:fishlettucewrapitem",
+		count: 4
+	}]
+}

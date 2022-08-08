@@ -1,0 +1,28 @@
+{
+	x: 12.5d,
+	y: 7.0d,
+	dependencies: [
+		"530a2452"
+	],
+	hide: true,
+	tasks: [{
+		uid: "19e49a7d",
+		type: "item",
+		items: [{
+			item: "minecraft:skull 1 1"
+		}],
+		count: 3L
+	}],
+	rewards: [{
+		uid: "702332e4",
+		type: "item",
+		item: "minecraft:skull 1 1",
+		count: 3
+	},
+	{
+		uid: "d5fd01cf",
+		type: "item",
+		item: "minecraft:soul_sand",
+		count: 4
+	}]
+}

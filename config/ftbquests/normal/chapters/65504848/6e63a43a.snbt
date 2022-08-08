@@ -1,0 +1,48 @@
+{
+	x: 12.5d,
+	y: 0.0d,
+	dependencies: [
+		"ddd73c3c"
+	],
+	tasks: [{
+		uid: "26c3caa2",
+		type: "item",
+		items: [{
+			item: "mekanism:atomicalloy"
+		}],
+		count: 32L
+	}],
+	rewards: [{
+		uid: "c0835689",
+		type: "item",
+		item: {
+			id: "mekanism:energycube",
+			tag: {
+				tier: 3
+			}
+		}
+	},
+	{
+		uid: "f8fc7dc7",
+		type: "item",
+		item: {
+			id: "mekanism:machineblock2",
+			tag: {
+				tier: 3
+			},
+			Damage: 11s
+		},
+		count: 2
+	},
+	{
+		uid: "af4f63c6",
+		type: "item",
+		item: {
+			id: "mekanism:gastank",
+			tag: {
+				tier: 3
+			}
+		},
+		count: 2
+	}]
+}

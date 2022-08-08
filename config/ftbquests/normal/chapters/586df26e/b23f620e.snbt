@@ -1,0 +1,27 @@
+{
+	title: "更加精细的斧头",
+	x: 10.5d,
+	y: 2.0d,
+	text: [
+		"也许你也发现了，粗糙的斧头 简陋到连 砧板 都无法制作，也许是时候升级一下自己的斧头了",
+		"制作一把燧石斧"
+	],
+	dependencies: [
+		"e1485e6f"
+	],
+	hide: true,
+	tasks: [{
+		uid: "1488fc43",
+		type: "item",
+		items: [{
+			item: "pyrotech:flint_axe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "6d71055c",
+		type: "item",
+		item: "pyrotech:chopping_block"
+	}]
+}

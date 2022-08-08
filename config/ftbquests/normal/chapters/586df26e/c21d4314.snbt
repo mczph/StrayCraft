@@ -1,0 +1,25 @@
+{
+	title: "获得燧石",
+	x: 2.5d,
+	y: 0.5d,
+	text: [
+		"tips:沙砾不再产出燧石，只掉落火种科技的各种石块"
+	],
+	dependencies: [
+		"30611bef"
+	],
+	hide: true,
+	tasks: [{
+		uid: "8a47d028",
+		type: "item",
+		items: [{
+			item: "minecraft:flint"
+		}]
+	}],
+	rewards: [{
+		uid: "82989d7c",
+		type: "item",
+		item: "minecraft:flint",
+		count: 3
+	}]
+}

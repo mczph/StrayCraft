@@ -1,0 +1,30 @@
+{
+	x: 3.0d,
+	y: 4.5d,
+	text: [
+		"摆脱晾晒纤维的时候到啦！"
+	],
+	dependencies: [
+		"da9afc83",
+		"20e6cbf8"
+	],
+	hide: true,
+	tasks: [{
+		uid: "85f63408",
+		type: "item",
+		items: [{
+			item: "pyrotech:stone_kiln"
+		}]
+	}],
+	rewards: [{
+		uid: "ffb8e62c",
+		type: "item",
+		item: "minecraft:dirt",
+		count: 9
+	},
+	{
+		uid: "74a83871",
+		type: "random",
+		table: 0
+	}]
+}

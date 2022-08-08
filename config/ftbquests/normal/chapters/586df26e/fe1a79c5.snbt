@@ -1,0 +1,28 @@
+{
+	x: -0.5d,
+	y: 3.0d,
+	dependencies: [
+		"87ac0977"
+	],
+	hide: true,
+	tasks: [{
+		uid: "93242d12",
+		type: "item",
+		items: [{
+			item: "pyrotech:stone_crucible"
+		}]
+	},
+	{
+		uid: "1fe157b1",
+		type: "item",
+		items: [{
+			item: "pyrotech:faucet_stone"
+		}]
+	}],
+	rewards: [{
+		uid: "a07c61a1",
+		type: "item",
+		item: "minecraft:clay",
+		count: 6
+	}]
+}

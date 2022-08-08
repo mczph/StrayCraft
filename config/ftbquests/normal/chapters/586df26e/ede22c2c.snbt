@@ -1,0 +1,33 @@
+{
+	title: "热门话题",
+	x: 5.25d,
+	y: 9.0d,
+	text: [
+		"你刚刚发现的金属——铁以超高的熔点完胜了你手中的所有耐热材料，你似乎可以拿他做个熔炉"
+	],
+	dependencies: [
+		"8e0e91f4"
+	],
+	hide: true,
+	size: 1.5d,
+	tasks: [{
+		uid: "5789b88f",
+		type: "item",
+		items: [{
+			item: "minecraft:furnace"
+		}]
+	}],
+	rewards: [{
+		uid: "b9c1c4c9",
+		type: "item",
+		item: {
+			id: "minecraft:experience_bottle",
+			tag: {
+				display: {
+					Name: "作者的鼓励（看你小子肾虚）"
+				}
+			}
+		},
+		count: 12
+	}]
+}

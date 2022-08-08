@@ -1,0 +1,27 @@
+{
+	x: 10.5d,
+	y: 5.0d,
+	dependencies: [
+		"7c09e375"
+	],
+	hide: true,
+	tasks: [{
+		uid: "e6ecd28c",
+		type: "item",
+		items: [{
+			item: "minecraft:diamond_pickaxe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "a914f849",
+		type: "random",
+		table: 0
+	},
+	{
+		uid: "d68bd2b2",
+		type: "item",
+		item: "minecraft:diamond_helmet"
+	}]
+}

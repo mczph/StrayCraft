@@ -1,0 +1,25 @@
+{
+	title: "榨干！",
+	x: 6.5d,
+	y: 5.0d,
+	text: [
+		"制作一个简陋的晾干架"
+	],
+	dependencies: [
+		"b6572160"
+	],
+	hide: true,
+	tasks: [{
+		uid: "09fdc09a",
+		type: "item",
+		items: [{
+			item: "pyrotech:drying_rack"
+		}]
+	}],
+	rewards: [{
+		uid: "87f45b80",
+		type: "item",
+		item: "pyrotech:drying_rack",
+		count: 5
+	}]
+}

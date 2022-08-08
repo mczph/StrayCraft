@@ -1,0 +1,26 @@
+{
+	x: 2.5d,
+	y: 2.5d,
+	dependencies: [
+		"8123a90d"
+	],
+	tasks: [{
+		uid: "1f7b064c",
+		type: "item",
+		items: [{
+			item: "ic2:te 1 43"
+		}]
+	}],
+	rewards: [{
+		uid: "9fcd1b03",
+		type: "item",
+		item: {
+			id: "ic2:cable",
+			tag: {
+				type: 0b,
+				insulation: 0b
+			}
+		},
+		count: 32
+	}]
+}

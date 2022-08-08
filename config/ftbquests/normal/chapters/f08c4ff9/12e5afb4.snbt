@@ -1,0 +1,24 @@
+{
+	title: "转化",
+	icon: "projecte:item.pe_transmutation_tablet",
+	x: 0.0d,
+	y: -0.5d,
+	text: [
+		"在长期的采掘与发现中，你发现了这个梦境中大多数物质都由一种特殊的东西构成，",
+		"为了纪念伟大的物理学家爱因斯坦，你将其命名为 “EMC”"
+	],
+	dependencies: [
+		"82863d04",
+		"5b34278e",
+		"e550b10b",
+		"d2587525",
+		"8e568149",
+		"48930db4"
+	],
+	hide: true,
+	rewards: [{
+		uid: "7d4bee26",
+		type: "item",
+		item: "projecte:item.pe_transmutation_tablet"
+	}]
+}

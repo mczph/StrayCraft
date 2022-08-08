@@ -1,0 +1,26 @@
+{
+	x: 4.0d,
+	y: 13.5d,
+	dependencies: [
+		"46edf8a7"
+	],
+	hide: true,
+	tasks: [{
+		uid: "a17bca1f",
+		type: "item",
+		items: [{
+			item: "academy:node_standard"
+		}]
+	}],
+	rewards: [{
+		uid: "96c7b3dc",
+		type: "item",
+		item: {
+			id: "thermalexpansion:capacitor",
+			tag: {
+				Energy: 4000000
+			},
+			Damage: 1s
+		}
+	}]
+}

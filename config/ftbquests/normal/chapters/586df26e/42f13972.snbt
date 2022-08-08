@@ -1,0 +1,25 @@
+{
+	title: "制作砧板",
+	x: 12.5d,
+	y: 0.5d,
+	text: [
+		"你获得的木材似乎无法直接使用，用砧板制作更加精细的木板吧"
+	],
+	dependencies: [
+		"0042f4bd"
+	],
+	hide: true,
+	tasks: [{
+		uid: "4106e1a9",
+		type: "item",
+		items: [{
+			item: "pyrotech:chopping_block"
+		}]
+	}],
+	rewards: [{
+		uid: "c1444ca6",
+		type: "item",
+		item: "minecraft:planks",
+		count: 24
+	}]
+}

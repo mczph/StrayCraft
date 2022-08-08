@@ -1,0 +1,35 @@
+{
+	x: 8.0d,
+	y: 11.0d,
+	dependencies: [
+		"a9abce82"
+	],
+	hide: true,
+	tasks: [{
+		uid: "e61a31b1",
+		type: "item",
+		items: [{
+			item: "academy:mat_core 1 2"
+		}]
+	}],
+	rewards: [{
+		uid: "8031d196",
+		type: "item",
+		item: "academy:eu_input"
+	},
+	{
+		uid: "87424054",
+		type: "item",
+		item: "academy:eu_output"
+	},
+	{
+		uid: "a769888a",
+		type: "item",
+		item: "academy:ac_rf_input"
+	},
+	{
+		uid: "4a213e40",
+		type: "item",
+		item: "academy:ac_rf_output"
+	}]
+}

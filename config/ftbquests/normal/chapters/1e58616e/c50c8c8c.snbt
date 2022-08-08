@@ -1,0 +1,24 @@
+{
+	x: 2.0d,
+	y: 4.0d,
+	dependencies: [
+		"6f0168f5"
+	],
+	tasks: [{
+		uid: "ac4a4c36",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:material 1 164"
+		}]
+	}],
+	rewards: [{
+		uid: "f6227d82",
+		type: "item",
+		item: {
+			id: "tconstruct:cast",
+			tag: {
+				PartType: "tconstruct:binding"
+			}
+		}
+	}]
+}

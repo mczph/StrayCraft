@@ -1,0 +1,26 @@
+{
+	title: "更好的镐子",
+	x: 6.5d,
+	y: 2.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"139e4d09"
+	],
+	hide: true,
+	tasks: [{
+		uid: "a28754b3",
+		type: "item",
+		items: [{
+			item: "pyrotech:flint_pickaxe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "f324efeb",
+		type: "item",
+		item: "pyrotech:bag_simple"
+	}]
+}

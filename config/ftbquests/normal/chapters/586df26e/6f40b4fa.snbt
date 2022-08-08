@@ -1,0 +1,24 @@
+{
+	x: 4.5d,
+	y: 6.5d,
+	text: [
+		"更快更多！！！"
+	],
+	dependencies: [
+		"e51a8468"
+	],
+	hide: true,
+	tasks: [{
+		uid: "0c910ab5",
+		type: "item",
+		items: [{
+			item: "pyrotech:drying_rack 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "c56b257a",
+		type: "item",
+		item: "pyrotech:drying_rack 1 1",
+		count: 3
+	}]
+}

@@ -1,0 +1,40 @@
+{
+	x: -7.0d,
+	y: 13.5d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"8eab27a9"
+	],
+	hide: true,
+	tasks: [{
+		uid: "ac1ff721",
+		type: "item",
+		items: [{
+			item: "academy:metal_former"
+		}]
+	}],
+	rewards: [{
+		uid: "a55b9b85",
+		type: "item",
+		item: "academy:constraint_metal",
+		count: 12
+	},
+	{
+		uid: "6b5ee545",
+		type: "item",
+		item: "academy:crystal_ore",
+		count: 12
+	},
+	{
+		uid: "2186449c",
+		type: "item",
+		item: "academy:reso_ore",
+		count: 12
+	},
+	{
+		uid: "ba8a583b",
+		type: "item",
+		item: "academy:imagsil_ore",
+		count: 12
+	}]
+}

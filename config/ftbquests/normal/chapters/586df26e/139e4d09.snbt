@@ -1,0 +1,26 @@
+{
+	x: 8.5d,
+	y: 2.0d,
+	text: [
+		"也许，地底有更多资源？"
+	],
+	dependencies: [
+		"b23f620e"
+	],
+	hide: true,
+	tasks: [{
+		uid: "d18d7f2d",
+		type: "item",
+		items: [{
+			item: "notreepunching:pickaxe/flint"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "c8a13f75",
+		type: "item",
+		item: "pyrotech:crate",
+		count: 5
+	}]
+}

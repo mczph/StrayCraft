@@ -1,0 +1,30 @@
+{
+	title: "质量",
+	x: 0.0d,
+	y: 5.0d,
+	shape: "hexagon",
+	text: [
+		""
+	],
+	dependencies: [
+		"12e5afb4"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "3cd48f1c",
+		type: "item",
+		items: [{
+			item: "extrautils2:compressedcobblestone 1 7"
+		}],
+		count: 8L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "f5b80ad0",
+		type: "item",
+		item: {
+			id: "projecte:item.pe_rm_katar",
+			tag: {}
+		}
+	}]
+}

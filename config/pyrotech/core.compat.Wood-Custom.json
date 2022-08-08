@@ -1,0 +1,31 @@
+{
+  "__comments": [
+    "WARNING: All changes should be made to the file with the name Custom",
+    "in the title. Changes made to the Generated file will be overwritten.",
+    "",
+    "This file defines input and output pairs for auto-generating recipes",
+    "for the Chopping Block.",
+    "",
+    "Entries are in the format (input): (output)",
+    "Entry item strings are in the format: (domain):(path):(meta)"
+  ],
+  "entries": {
+    "extrautils2:ironwood_log:0": "extrautils2:ironwood_planks:0",
+    "extrautils2:ironwood_log:1": "extrautils2:ironwood_planks:1",
+    "harvestcraft:pamcinnamon:0": "minecraft:planks:3",
+    "harvestcraft:pammaple:0": "minecraft:planks:1",
+    "harvestcraft:pampaperbark:0": "minecraft:planks:3",
+    "minecraft:log2:0": "minecraft:planks:4",
+    "minecraft:log2:1": "minecraft:planks:5",
+    "minecraft:log:0": "minecraft:planks:0",
+    "minecraft:log:1": "minecraft:planks:1",
+    "minecraft:log:2": "minecraft:planks:2",
+    "minecraft:log:3": "minecraft:planks:3",
+    "minecraft:planks:0": "minecraft:wooden_slab:0",
+    "minecraft:planks:1": "minecraft:wooden_slab:1",
+    "minecraft:planks:2": "minecraft:wooden_slab:2",
+    "minecraft:planks:3": "minecraft:wooden_slab:3",
+    "minecraft:planks:4": "minecraft:wooden_slab:4",
+    "minecraft:planks:5": "minecraft:wooden_slab:5"
+  }
+}

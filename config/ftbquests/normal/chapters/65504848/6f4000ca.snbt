@@ -1,0 +1,25 @@
+{
+	x: 0.0d,
+	y: 5.0d,
+	dependencies: [
+		"8123a90d"
+	],
+	tasks: [{
+		uid: "f53dda53",
+		type: "item",
+		items: [{
+			item: "ic2:te 1 47"
+		}]
+	}],
+	rewards: [{
+		uid: "888c54da",
+		type: "choice",
+		table: 0
+	},
+	{
+		uid: "29473da4",
+		type: "item",
+		item: "minecraft:redstone_block",
+		count: 5
+	}]
+}

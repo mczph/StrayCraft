@@ -1,0 +1,31 @@
+{
+	x: -2.0d,
+	y: 5.0d,
+	text: [
+		"这个梦境中的怪物总有着一些奇奇怪怪的能力，令人头疼，我应该可以通过我的 聪明才智 和 经济力量 来复制甚至超越它们。",
+		"（富人靠科技，穷人靠变异）"
+	],
+	dependencies: [
+		"8e0e91f4",
+		"8eab27a9"
+	],
+	hide: true,
+	tasks: [{
+		uid: "4b08378d",
+		type: "item",
+		items: [{
+			id: "academy:developer_portable",
+			tag: {
+				energy: 0.0d
+			},
+			Damage: 13s
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "0e371472",
+		type: "item",
+		item: "academy:solar_gen"
+	}]
+}

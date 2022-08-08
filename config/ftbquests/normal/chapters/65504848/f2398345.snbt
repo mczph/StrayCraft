@@ -1,0 +1,80 @@
+{
+	x: 19.0d,
+	y: -2.0d,
+	dependencies: [
+		"583ae5c7"
+	],
+	tasks: [{
+		uid: "5efd35b5",
+		type: "item",
+		items: [{
+			item: "mekanismgenerators:reactor"
+		}]
+	},
+	{
+		uid: "2c72b617",
+		type: "item",
+		items: [{
+			item: "mekanismgenerators:reactor 1 1"
+		}],
+		count: 54L
+	},
+	{
+		uid: "48655beb",
+		type: "item",
+		items: [{
+			item: "mekanismgenerators:reactor 1 2"
+		}]
+	},
+	{
+		uid: "a203227a",
+		type: "item",
+		items: [{
+			item: "mekanismgenerators:reactorglass 1 1"
+		}]
+	},
+	{
+		uid: "10c3d365",
+		type: "item",
+		items: [{
+			item: "mekanism:machineblock2 1 13"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "bb01832f",
+		type: "item",
+		items: [{
+			item: "mekanism:machineblock2 1 14"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "529bf15c",
+		type: "item",
+		items: [{
+			item: "mekanism:machineblock2 1 15"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "0606c1f2",
+		type: "item",
+		item: {
+			id: "mekanismgenerators:hohlraum",
+			tag: {
+				mekData: {
+					stored: {
+						amount: 10,
+						gasName: "fusionfuel"
+					}
+				}
+			}
+		}
+	},
+	{
+		uid: "a04e0e84",
+		type: "item",
+		item: "mekanism:machineblock3 1 1"
+	}]
+}

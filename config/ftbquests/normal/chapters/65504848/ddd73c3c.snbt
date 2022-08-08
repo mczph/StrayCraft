@@ -1,0 +1,26 @@
+{
+	x: 8.5d,
+	y: 0.0d,
+	dependencies: [
+		"afd79e4c"
+	],
+	tasks: [{
+		uid: "9302ea85",
+		type: "item",
+		items: [{
+			item: "mekanism:reinforcedalloy"
+		}],
+		count: 32L
+	}],
+	rewards: [{
+		uid: "98c13db3",
+		type: "item",
+		item: {
+			id: "mekanism:transmitter",
+			tag: {
+				tier: 2
+			}
+		},
+		count: 32
+	}]
+}

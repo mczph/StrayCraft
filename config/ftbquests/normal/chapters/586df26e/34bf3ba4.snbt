@@ -1,0 +1,26 @@
+{
+	title: "温暖的篝火",
+	x: 6.5d,
+	y: 6.5d,
+	text: [
+		"流浪的艰辛让你疲惫，做个温暖的篝火小憩一下吧",
+		"tips:火绒放在地上添加木材点火以使用"
+	],
+	dependencies: [
+		"e51a8468"
+	],
+	hide: true,
+	tasks: [{
+		uid: "a018ef02",
+		type: "item",
+		items: [{
+			item: "pyrotech:tinder"
+		}]
+	}],
+	rewards: [{
+		uid: "aace6f38",
+		type: "item",
+		item: "minecraft:log",
+		count: 8
+	}]
+}

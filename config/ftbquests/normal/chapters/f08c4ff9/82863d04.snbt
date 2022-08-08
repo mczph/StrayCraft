@@ -1,0 +1,13 @@
+{
+	x: 2.5d,
+	y: -1.5d,
+	tasks: [{
+		uid: "a3798095",
+		type: "item",
+		items: [{
+			item: "minecraft:gold_block"
+		}],
+		count: 64L,
+		consume_items: true
+	}]
+}

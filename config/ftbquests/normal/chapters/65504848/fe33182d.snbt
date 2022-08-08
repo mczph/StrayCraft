@@ -1,0 +1,78 @@
+{
+	title: "工厂化",
+	x: 12.5d,
+	y: 3.0d,
+	text: [
+		""
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"eab4a10b"
+	],
+	tasks: [{
+		uid: "77383ac9",
+		type: "item",
+		items: [{
+			id: "mekanism:machineblock",
+			tag: {
+				recipeType: 7
+			},
+			Damage: 5s
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "76c33c35",
+		type: "item",
+		items: [{
+			id: "mekanism:machineblock",
+			tag: {
+				recipeType: 2
+			},
+			Damage: 5s
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "bb05cce2",
+		type: "item",
+		items: [{
+			id: "mekanism:machineblock",
+			tag: {
+				recipeType: 8
+			},
+			Damage: 5s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "c72649d5",
+		type: "item",
+		item: "mekanism:tierinstaller 1 1"
+	},
+	{
+		uid: "45e4fbcd",
+		type: "item",
+		item: "mekanism:tierinstaller 1 1"
+	},
+	{
+		uid: "e7160c8c",
+		type: "item",
+		item: "mekanism:tierinstaller 1 1"
+	},
+	{
+		uid: "dc452e09",
+		type: "item",
+		item: "mekanism:tierinstaller 1 1"
+	},
+	{
+		uid: "84a03508",
+		type: "item",
+		item: "mekanism:tierinstaller 1 1"
+	},
+	{
+		uid: "cc7c4288",
+		type: "item",
+		item: "mekanism:tierinstaller 1 1"
+	}]
+}

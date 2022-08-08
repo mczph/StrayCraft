@@ -1,0 +1,52 @@
+{
+	x: 2.5d,
+	y: 0.5d,
+	tasks: [{
+		uid: "756ba607",
+		type: "item",
+		items: [{
+			item: "minecraft:sapling"
+		}],
+		consume_items: true
+	},
+	{
+		uid: "3e9d2a1b",
+		type: "item",
+		items: [{
+			item: "minecraft:sapling 1 1"
+		}],
+		consume_items: true
+	},
+	{
+		uid: "9ac43305",
+		type: "item",
+		items: [{
+			item: "minecraft:sapling 1 2"
+		}],
+		consume_items: true
+	},
+	{
+		uid: "1012184f",
+		type: "item",
+		items: [{
+			item: "minecraft:sapling 1 3"
+		}],
+		consume_items: true
+	},
+	{
+		uid: "23db787a",
+		type: "item",
+		items: [{
+			item: "minecraft:sapling 1 4"
+		}],
+		consume_items: true
+	},
+	{
+		uid: "2ad9b978",
+		type: "item",
+		items: [{
+			item: "minecraft:sapling 1 5"
+		}],
+		consume_items: true
+	}]
+}

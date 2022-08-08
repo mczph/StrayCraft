@@ -1,0 +1,30 @@
+{
+	title: "亡灵的故乡",
+	x: 12.5d,
+	y: 5.0d,
+	text: [
+		"刚刚开采的黑曜石似乎有沟通下届的能力......"
+	],
+	dependencies: [
+		"7055dcea"
+	],
+	hide: true,
+	tasks: [{
+		uid: "80b6d823",
+		type: "item",
+		items: [{
+			item: "minecraft:obsidian"
+		}],
+		count: 10L
+	},
+	{
+		uid: "8e5e7713",
+		type: "dimension",
+		dim: -1
+	}],
+	rewards: [{
+		uid: "3027d350",
+		type: "random",
+		table: 0
+	}]
+}

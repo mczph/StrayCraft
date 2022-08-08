@@ -1,0 +1,26 @@
+{
+	x: 0.0d,
+	y: 5.0d,
+	dependencies: [
+		"6f0168f5"
+	],
+	tasks: [{
+		uid: "b25f8b1d",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:material 1 162"
+		}],
+		count: 4L,
+		consume_items: false
+	}],
+	rewards: [{
+		uid: "ab671836",
+		type: "item",
+		item: {
+			id: "tconstruct:cast",
+			tag: {
+				PartType: "tconstruct:pick_head"
+			}
+		}
+	}]
+}

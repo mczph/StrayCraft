@@ -1,0 +1,32 @@
+{
+	x: 9.0d,
+	y: 9.0d,
+	text: [
+		"这把镐子，使你得眼光探向了更深的地底"
+	],
+	dependencies: [
+		"8e0e91f4"
+	],
+	hide: true,
+	size: 1.7d,
+	tasks: [{
+		uid: "c0c64e3a",
+		type: "item",
+		items: [{
+			item: "minecraft:iron_pickaxe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "f9243ed9",
+		type: "item",
+		item: {
+			id: "thermalexpansion:satchel",
+			tag: {
+				Accessible: 1b
+			},
+			Damage: 1s
+		}
+	}]
+}

@@ -1,0 +1,26 @@
+{
+	title: "能利用的？",
+	x: 4.5d,
+	y: 0.5d,
+	text: [
+		"你刚刚合成的燧石该如何使用？",
+		"也许它们被打碎的锯齿更有用些",
+		"tips:燧石在手上左键石头"
+	],
+	dependencies: [
+		"c21d4314"
+	],
+	hide: true,
+	tasks: [{
+		uid: "68317ded",
+		type: "item",
+		items: [{
+			item: "notreepunching:flint_shard"
+		}]
+	}],
+	rewards: [{
+		uid: "cd5592fd",
+		type: "item",
+		item: "minecraft:bed 1 14"
+	}]
+}

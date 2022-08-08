@@ -1,0 +1,35 @@
+{
+	title: "黄油猫悖论",
+	icon: "academy:cat_engine",
+	x: -4.5d,
+	y: 5.0d,
+	text: [
+		"科学家们发现，猫总是脚先落地；吐司总是涂有黄油的一面掉在地上。将这两者组合，不就能实现“永动机”吗？",
+		"虽然在现实中是完全错误的，但在这个“真实的梦境”中就不一定了"
+	],
+	dependencies: [
+		"12b2f1c0",
+		"d1af177c",
+		"ee7bd208",
+		"d3bc3fe8",
+		"d945bb03"
+	],
+	hide: true,
+	rewards: [{
+		uid: "8adee750",
+		type: "item",
+		team_reward: true,
+		item: "academy:cat_engine"
+	},
+	{
+		uid: "3323e127",
+		type: "item",
+		item: "harvestcraft:toastitem",
+		count: 2
+	},
+	{
+		uid: "85489468",
+		type: "item",
+		item: "harvestcraft:butteritem"
+	}]
+}

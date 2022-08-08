@@ -1,0 +1,26 @@
+{
+	x: 5.0d,
+	y: 0.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"eab4a10b"
+	],
+	tasks: [{
+		uid: "489eb3d3",
+		type: "item",
+		items: [{
+			item: "mekanism:enrichedalloy"
+		}],
+		count: 32L
+	}],
+	rewards: [{
+		uid: "3bdabbb0",
+		type: "item",
+		item: {
+			id: "thermalexpansion:capacitor",
+			tag: {
+				Energy: 1000000
+			}
+		}
+	}]
+}

@@ -1,0 +1,27 @@
+{
+	title: "更高的温度",
+	x: 3.0d,
+	y: 6.5d,
+	text: [
+		"相比于坑窑，石窑并不能够很好的保存热量，大大降低了对燃料的利用，或许我要找一个木头与稻草块的替代品",
+		"tips:填坑焚烧具体方法见烟火秘闻"
+	],
+	dependencies: [
+		"36f44eca"
+	],
+	hide: true,
+	tasks: [{
+		uid: "263535ea",
+		type: "item",
+		items: [{
+			item: "minecraft:coal 1 1"
+		}],
+		count: 9L
+	}],
+	rewards: [{
+		uid: "95ccb092",
+		type: "item",
+		item: "pyrotech:charcoal_block",
+		count: 3
+	}]
+}

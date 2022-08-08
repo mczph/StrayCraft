@@ -1,0 +1,18 @@
+{
+	x: -2.5d,
+	y: 5.0d,
+	dependencies: [
+		"377cbc70"
+	],
+	tasks: [{
+		uid: "39daee21",
+		type: "item",
+		items: [{
+			id: "ic2:jetpack_electric",
+			tag: {},
+			Damage: 26s
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,16 @@
+{
+	x: 7.5d,
+	y: 3.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"eab4a10b"
+	],
+	tasks: [{
+		uid: "b425fde1",
+		type: "item",
+		items: [{
+			item: "mekanism:machineblock2 1 5"
+		}],
+		ignore_nbt: 1b
+	}]
+}

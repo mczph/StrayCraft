@@ -1,0 +1,29 @@
+{
+	x: -0.5d,
+	y: 11.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"6759e366"
+	],
+	hide: true,
+	tasks: [{
+		uid: "80240b9d",
+		type: "item",
+		items: [{
+			item: "academy:matrix"
+		}]
+	},
+	{
+		uid: "7ef9a5cc",
+		type: "item",
+		items: [{
+			item: "academy:mat_core"
+		}]
+	}],
+	rewards: [{
+		uid: "2c7a0906",
+		type: "item",
+		item: "academy:constraint_plate",
+		count: 3
+	}]
+}

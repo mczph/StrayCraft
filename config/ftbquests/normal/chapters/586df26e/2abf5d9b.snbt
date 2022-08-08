@@ -1,0 +1,26 @@
+{
+	title: "武器？",
+	x: 6.5d,
+	y: 0.5d,
+	text: [
+		"武器？也许这被简单拼接的小刀可以有更多用处"
+	],
+	dependencies: [
+		"38676288"
+	],
+	hide: true,
+	tasks: [{
+		uid: "dfccd40c",
+		type: "item",
+		items: [{
+			item: "notreepunching:knife/flint"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "e5bead31",
+		type: "item",
+		item: "notreepunching:flint_shard"
+	}]
+}

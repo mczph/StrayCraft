@@ -1,0 +1,15 @@
+{
+	x: 4.0d,
+	y: 11.0d,
+	dependencies: [
+		"10216a41"
+	],
+	hide: true,
+	tasks: [{
+		uid: "016f24f4",
+		type: "item",
+		items: [{
+			item: "academy:mat_core 1 1"
+		}]
+	}]
+}

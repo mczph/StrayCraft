@@ -1,0 +1,55 @@
+{
+	title: "处理你的矿物",
+	x: 0.5d,
+	y: 5.0d,
+	text: [
+		"普通的坑窑甚至石窑都无法熔炼那些顽固的矿物，只能搭建能够承受更高热量的锻造炉了"
+	],
+	dependencies: [
+		"87ac0977"
+	],
+	hide: true,
+	tasks: [{
+		uid: "6fe97326",
+		type: "item",
+		items: [{
+			item: "pyrotech:bloomery"
+		}]
+	},
+	{
+		uid: "b233a1ff",
+		type: "item",
+		items: [{
+			item: "pyrotech:tongs_bone"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "00858137",
+		type: "item",
+		items: [{
+			item: "pyrotech:cog_flint"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "45287a39",
+		type: "item",
+		item: "pyrotech:charcoal_block",
+		count: 12
+	},
+	{
+		uid: "2533e00b",
+		type: "item",
+		team_reward: true,
+		item: "pyrotech:mechanical_bellows",
+		count: 2
+	},
+	{
+		uid: "63ebcd2a",
+		type: "item",
+		item: "pyrotech:bloomery"
+	}]
+}

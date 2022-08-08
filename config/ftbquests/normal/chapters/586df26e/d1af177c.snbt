@@ -1,0 +1,10 @@
+{
+	x: -7.0d,
+	y: 7.0d,
+	tasks: [{
+		uid: "0611611f",
+		type: "kill",
+		entity: "minecraft:creeper",
+		value: 16L
+	}]
+}

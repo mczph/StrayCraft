@@ -1,0 +1,16 @@
+$ cat .gitignore
+#Whitelist
+/*
+
+#Folders
+!/patchouli_books
+!/resources
+!/scripts
+!/config
+!/bansoukou
+!/fontfiles
+
+#Files
+!/.gitignore
+!/README.md
+!/icon.png

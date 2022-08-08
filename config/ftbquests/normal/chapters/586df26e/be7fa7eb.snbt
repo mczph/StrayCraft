@@ -1,0 +1,26 @@
+{
+	title: "也许这是意外产物？",
+	x: 8.5d,
+	y: 0.5d,
+	text: [
+		"你正拿着小刀在草丛中随意的挥舞，却意外的看到了这些有用的东西"
+	],
+	dependencies: [
+		"2abf5d9b"
+	],
+	hide: true,
+	tasks: [{
+		uid: "af6b38a4",
+		type: "item",
+		items: [{
+			item: "notreepunching:grass_fiber"
+		}],
+		count: 6L
+	}],
+	rewards: [{
+		uid: "3e894968",
+		type: "item",
+		item: "tconstruct:stone_torch",
+		count: 4
+	}]
+}

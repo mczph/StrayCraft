@@ -1,0 +1,25 @@
+{
+	title: "更方便的合成",
+	x: 0.5d,
+	y: 9.0d,
+	text: [
+		"工作桌、锤子的一次次破损让你很是抓狂，或许你可以用刚刚发现的铁来做更加方便的合成工具"
+	],
+	dependencies: [
+		"8e0e91f4"
+	],
+	hide: true,
+	size: 1.5d,
+	tasks: [{
+		uid: "c7404f84",
+		type: "item",
+		items: [{
+			item: "minecraft:crafting_table"
+		}]
+	}],
+	rewards: [{
+		uid: "b93833a6",
+		type: "item",
+		item: "baubles:ring"
+	}]
+}
